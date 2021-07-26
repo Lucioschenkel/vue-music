@@ -1,0 +1,12 @@
+{
+  "home": {
+    "listen": "Écoutez a la bonne musique!"
+  },
+  "song": {
+    "comment_count": "{count} Commentaires"
+  },
+  "register": {
+    "accept": "I accept Music's {0}",
+    "TOS": "Terms of Service"
+  }
+}
