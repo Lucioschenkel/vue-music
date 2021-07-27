@@ -105,13 +105,15 @@ export default {
     };
   },
   computed: {
-    ...mapState(['authModalShow']),
+    ...mapState({
+      authModalShow: (state) => state.auth.authModalShow,
+    }),
     // ...mapState({
     //   modal: 'authModalShow',
     // }),
   },
   methods: {
-    ...mapMutations(['toggleAuthModal']),
+    ...mapMutations(/* 'auth', */ ['toggleAuthModal']),
   },
   components: {
     AppLoginForm,
